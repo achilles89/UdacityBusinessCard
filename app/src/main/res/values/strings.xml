@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Udacity Business Card</string>
+    <string name="this_code_could_be_yours">THIS CODE COULD BE YOURS</string>
+    <string name="come_and_join_to_learn">COME AND JOIN TO LEARN</string>
+    <string name="udacity">Udacity</string>
+    <string name="_2465_latham_st">2465 Latham St.</string>
+    <string name="mountain_view_ca_94043">Mountain View, CA 94043</string>
+    <string name="_650_555_5555">650-555-5555</string>
+    <string name="wwww_udacity_com">wwww.udacity.com</string>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

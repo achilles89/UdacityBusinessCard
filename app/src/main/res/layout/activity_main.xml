@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context="com.example.android.udacitybusinesscard.MainActivity">
+
+    <TextView
+        android:id="@+id/this_code_could_be_yours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/this_code_could_be_yours"
+        android:textColor="#5dc821"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+
+    <ImageView
+        android:id="@+id/matrix_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/matrix"
+        android:layout_below="@id/this_code_could_be_yours" />
+
+    <TextView
+        android:id="@+id/come_and_join_to_learn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/come_and_join_to_learn"
+        android:textColor="#5dc821"
+        android:layout_below="@id/matrix_imageview"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+
+
+    <ImageView
+        android:id="@+id/udacity_logo_imageview"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/greenudacitylogo"
+        android:layout_below="@id/come_and_join_to_learn"
+        android:layout_marginStart="66dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/green_address_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/greenaddressbutton"
+        android:layout_below="@id/udacity_logo_imageview"
+        android:layout_marginStart="66dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:id="@+id/green_phone_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/greenphonebutton"
+        android:layout_below="@id/green_address_button"
+        android:layout_marginStart="66dp"
+        android:layout_marginLeft="66dp"/>
+
+    <TextView
+        android:id="@+id/udacity_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/udacity"
+        android:textColor="@color/white"
+        android:layout_below="@id/come_and_join_to_learn"
+        android:layout_toRightOf="@id/udacity_logo_imageview"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:layout_toEndOf="@id/udacity_logo_imageview" />
+
+    <TextView
+        android:id="@+id/address_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_2465_latham_st"
+        android:textColor="@color/white"
+        android:layout_below="@id/udacity_textview"
+        android:layout_toRightOf="@id/green_address_button"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:autoLink="map"
+        android:textSize="18sp"
+        android:layout_toEndOf="@id/green_address_button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mountain_view_ca_94043"
+        android:textColor="@color/white"
+        android:layout_below="@id/udacity_textview"
+        android:layout_toRightOf="@id/green_address_button"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:autoLink="map"
+        android:textSize="18sp"
+        android:layout_toEndOf="@id/green_address_button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_650_555_5555"
+        android:textColor="@color/white"
+        android:layout_below="@id/green_address_button"
+        android:layout_toRightOf="@id/green_phone_button"
+        android:layout_marginEnd="66dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:autoLink="phone"
+        android:textSize="18sp"
+        android:layout_toEndOf="@id/green_phone_button"
+        android:layout_marginRight="66dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wwww_udacity_com"
+        android:layout_alignParentBottom="true"
+        android:textColor="#5dc821"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:autoLink="web"
+        android:textColorLink="#5dc821"/>
+</RelativeLayout>
